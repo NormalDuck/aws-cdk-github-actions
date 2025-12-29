@@ -1,4 +1,4 @@
-FROM alpine:3.17
+FROM alpine:3.23.2
 
 RUN apk --update --no-cache add nodejs~20 npm python3 py3-pip jq curl bash git docker zip && \
 	ln -sf /usr/bin/python3 /usr/bin/python
